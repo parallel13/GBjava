@@ -41,6 +41,7 @@ public class Main {
             int ans;
             System.out.println("Введите требуемую операцию: 1 сложение, 2 вычетание 3 умножение 4 деление:");
             int choose;
+
             choose = inp.nextInt();
             switch (choose) {
                 case 1:
@@ -52,7 +53,7 @@ public class Main {
                 case 3:
                     System.out.println(mult(num1, num2));
                     break;
-                case 4:
+                case 4: // sa
                     System.out.println(div(num1, num2));
                     break;
                 default:
